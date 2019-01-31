@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+#main {
+    text-align: center;
+}
+
+#logo {
+    width: 400px;
+    height: 182px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.search {
+    text-align: center;
+    display: inline-block;
+}
+
+#searchbar {
+    text-align: center;
+    width: 100px;
+}
+
+#thesearchbar {
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
