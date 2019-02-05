@@ -1,6 +1,7 @@
 body {
     background-color: #fff;
     text-align: center;
+    font-size: 14px;
 }
 
 #main {
@@ -8,10 +9,10 @@ body {
 }
 
 #logo {
-    width: 400px;
-    height: 182px;
+    width: 275px;
+    height: 85px;
     padding-top: 90px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,14 +26,101 @@ body {
 
 #searchbar {
     text-align: center;
-    width: 100px;
 }
 
 #thesearchbar {
     width: 450px;
-    line-height: 32px;
-    padding: 20px 10px;
+    line-height: 30px;
+    padding: 4px 10px; 
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
   }
+
+.navi-bar li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 8px 6px;
+    font-size: 13px;
+}
+
+#gmail {
+    float: right;
+    padding-right: 10px;
+}
+
+#images {
+    float: right;
+    padding-right: 10px;
+}
+
+#sign-in {
+    float: right;
+    padding-right: 20px;
+    border: none;
+    background-color: #4286f4;
+    padding: 8px 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+#search-buttons {
+    text-align: center;
+    display: inline-block;
+}
+
+#search-buttons button {
+    display: inline-block;
+    background-color: #ccc;
+    color: #4c4c4c;
+    padding: 8px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-color: #efefef;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-psuedo {
+    min-height: 175px;
+    width: 100%;
+    display: flex;
+    flex: 1 1 100;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.footer-bar {
+    border-top-style: solid;
+    border-top-color: #ccc;
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: inline;
+    padding: 8px 6px;
+    font-size: 13px;
+    vertical-align: bottom;
+}
+
+.footer-bar li {
+    display: inline;
+    vertical-align: text-bottom;
+}
+
+#right-side {
+    align-content: right;
+}
+
+#left-side {
+    align-content: left;
+}

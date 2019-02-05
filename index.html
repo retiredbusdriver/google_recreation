@@ -5,14 +5,43 @@
         <title>Google</title>
     </head>
     <body>
+        <div id="top-bar">
+            <div>
+                <ul class="navi-bar">
+                    <li>About</li>
+                    <li>Store</li>
+                    <li id="sign-in">Sign In</li>
+                    <li id="gmail">Gmail</li>
+                    <li id="images">Images</li>
+                </ul>
+            </div>
+        </div>
         <div id="main" class="content">
             <div id="logo" class="content">
-                <img id="logo" src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
             <div class="search">
                 <form id="searchbar" action="/search" style="overflow:visible" method="GET" onsubmit="return">
-                    <p id="thesearchbar"><input type="text"/></p>
+                    <p id="thesearchbar"><input id="thesearchbar" type="text"/></p>
                 </form>
+            </div>
+            <div>
+                <div class="search-buttons">
+                    <button id="google-search">Google Search</button>
+                    <button id="im-feeling-lucky">I'm Feeling Lucky</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer">
+                <ul class="footer-bar">
+                    <div class="footer-psuedo"></div>
+                    <li id="left-side">Advertising</li>
+                    <li id="left-side">Business</li>
+                    <li id="right-side">Privacy</li>
+                    <li id="right-side">Terms</li>
+                    <li id="right-side">Settings</li>
+                </ul>
             </div>
         </div>
     </body>
